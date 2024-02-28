@@ -3,7 +3,7 @@ import time
 from datetime import datetime, timezone, timedelta
 import airportsdata
 from zoneinfo import ZoneInfo
-from plane_data import plane_data
+from default_plane_data import plane_data
 
 airports = airportsdata.load()  # key is the ICAO identifier (the default)
 
